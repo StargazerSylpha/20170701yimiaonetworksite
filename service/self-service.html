@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="utf-8">
+<title>客户服务／自助服务 - Yimiao Network／一秒网络</title>
+
+<link rel="icon" href="https://sylpha.coding.me/20170127redpocket/favicon.ico">
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnres.arraycats.net/yimiao/js/jquery.particleground.min.js"></script>
+<script src="https://cdnres.arraycats.net/yimiao/js/particleground-run.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+</head>
+<body>
+          
+          <div id="container">
+          
+                              
+      <div id="page-header" style="text-align:center;">
+     <div id="page-header-lizibg" style="height: 150px;z-index: -1;overflow: hidden;">                 
+	                    </div>
+
+<div id="title" style="z-index: 0;position: absolute; top: 50px;right: 100px;">
+	<p><h3><span class="glyphicon glyphicon-cloud" ></span><strong>&nbsp;Yimiao Network／一秒网络</strong></h3></p>	
+</div>   
+
+</div>
+<hr />
+
+    <div id="main-area">
+	     
+
+
+	     <div class="col-md-2" id="nav-area">
+
+
+	         <div id="nav-left" align="center">
+	             <ul class="nav nav-pills nav-stacked">
+	    	          <li><a href="#" data-toggle="collapse" data-target="#welcome-nav">Welcome／欢迎</a></li>
+                                  <div class="collapse" id="welcome-nav" style="margin-left: -30px;">
+                                <ul style="list-style: none;line-height: 30px;">
+                                <li><a href="../index.html" style="color: #aaaaaa;">Intro／介绍</a></li>
+                                <li><a href="../notice.html" style="color: #aaaaaa;">Notice／公告</a></li>
+                                </ul>
+                                </div>
+                  <li><a href="#" data-toggle="collapse" data-target="#yimiaoacc-nav">Yimiao Acc／一秒游</a></li>
+                                  <div class="collapse" id="yimiaoacc-nav" style="margin-left: -30px;">
+                                <ul style="list-style: none;line-height: 30px;">
+                                <li><a href="../168acc/download.php" style="color: #aaaaaa;">Download／下载</a></li>
+                                </ul>
+                                </div>
+                  <li><a href="#" data-toggle="collapse" data-target="#168acc-nav">168 Acc／168游戏加速</a></li>
+                                  <div class="collapse" id="168acc-nav" style="margin-left: -30px;">
+                                <ul style="list-style: none;line-height: 30px;">
+                                <li><a href="../168acc/price.html" style="color: #aaaaaa;">Price／价格</a></li>
+                                <li><a href="../168acc/register.html" style="color: #aaaaaa;">Register／注册</a></li>
+                                <li><a href="../168acc/download.php" style="color: #aaaaaa;">Download／下载</a></li>
+                                <li><a href="../168acc/pay.html" style="color: #aaaaaa;">Pay／充值</a></li>
+                                </ul>
+                                </div>
+                  <li><a href="#" data-toggle="collapse" data-target="#168ss-nav">168 Ssr／168安全加速</a></li>
+                                  <div class="collapse" id="168ss-nav" style="margin-left: -30px;">
+                                <ul style="list-style: none;line-height: 30px;">
+                                <li><a href="../168ss/price.html" style="color: #aaaaaa;">Price／价格</a></li>
+                                <li><a href="#" onclick="staffService()" style="color: #aaaaaa;">Register／注册</a></li>
+                                <li><a href="../168ss/download.php" style="color: #aaaaaa;">Download／下载</a></li>
+                                <li><a href="#" onclick="staffService()" style="color: #aaaaaa;">Pay／充值</a></li>
+                                <li><a href="../168ss/account.html" style="color: #aaaaaa;">Account＆Lines／账户＆线路</a></li>
+                                </ul>
+                                </div>
+	    	          <li class="active"><a href="#" data-toggle="collapse" data-target="#service-nav">Service／客户服务</a></li>
+	    	                          <div class="collapse in" id="service-nav" style="margin-left: -30px;">
+                                <ul style="list-style: none;line-height: 30px;">
+                                <li><a href="document.html" style="color: #aaaaaa;">Document／帮助文档</a></li>
+                                <li><strong>Self-Service／自助服务</strong></li>
+                                <li><a href="staff-service.html" style="color: #aaaaaa;">Staff Service／人工服务</a></li>
+                                </ul>
+                                </div>
+	    	     </ul>
+	         </div>
+
+         </div> 
+
+	                            <div class="col-md-10" id="content-area">
+                                <div id="168acc-test" style="display: none;">
+                                    <p><h4><strong>168游戏加速试用账户申请／168 Acc Trial Account Register</strong></h4></p>
+                                    <div id="168acc-test-back-btn">
+                                    <a href="#" onclick="menuOpen()" class="btn btn-primary"><span class="glyphicon glyphicon-chevron-left"></span>返回</a>   
+                                    </div>
+                                    
+                                    <div id="iframe-area">
+                                    <iframe id="168acc-test-iframe" src="#" frameborder="0" scrolling="no" style="width: 100%;height: 100px;"></iframe>
+                                    <h5 style="color: #aaaaaa;">您也可以<a href="staff-service.html">联系客服</a>申请试用账户</h5>
+                                    <p>&nbsp;</p>
+
+                                            <div id="168acc-test-annotation" style="color:#aaaaaa;font-size: 10px;">
+                                            <p>注释：</p>
+                                            <p>试用账户3天只能申请一次，每个试用账户的使用时间均为1小时。</p>
+                                            <p>最终解释权归Yimiao Network所有。</p>
+                                            </div>
+                                    </div>
+
+                                </div>
+
+                                <div id="168acc-clear-online" style="display: none;">
+                                    <p><h4><strong>168游戏加速清理在线人数／168 Acc Clear Online User</strong></h4></p>
+                                    <div id="168acc-clear-online-back-btn">
+                                    <a href="#" onclick="menuOpen()" class="btn btn-primary"><span class="glyphicon glyphicon-chevron-left"></span>返回</a>   
+                                    </div>
+                                    
+                                    <div id="iframe-area2">
+                                    <iframe src="http://101.200.198.244:6688/dailishang/clearOnLine.aspx" frameborder="0" scrolling="no" style="width: 100%;height: 100px;"></iframe>
+                                    
+                                    </div>
+
+
+                                </div>
+	                             
+                                 <div id="menu">
+	                                        <div id="yimiaoacc-self-service">
+                                           <p><h4><strong>一秒游自助服务／Yimiao Acc Self-Service</strong></h4></p>
+                                           
+                                           <h5 style="color: #aaaaaa;">暂无内容</h5>
+                                           
+                                           </div>
+
+                                           <p>&nbsp;</p>
+
+                                           <div id="168acc-self-service">
+                                           <p><h4><strong>168游戏加速自助服务／168 Acc Self-Service</strong></h4></p>
+                                           <div id="168acc-self-service-btn" align="center">
+                                           <div class="col-md-6">
+                                            <a href="#" onclick="ylbaccTrialRegister()" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-pencil" ></span>&nbsp;申请试用账户</a>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                            <a href="#" onclick="ylbaccClearOnline()" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-cog" ></span>&nbsp;清理在线人数</a>
+                                            </div>
+                                           </div>
+                                           </div>
+
+                                           <p>&nbsp;</p>
+
+                                           <div id="168ss-self-service">
+                                           <p><h4><strong>168安全加速自助服务／168 Ssr Self-Service</strong></h4></p>
+                                           
+                                           <h5 style="color: #aaaaaa;">暂无内容</h5>
+                                           
+                                           </div>
+                                           <p>&nbsp;</p>
+
+                                           <div id="patcher-dl">
+                                           <p><h4><strong>补丁文件下载／Patcher Download</strong></h4></p>
+                                           <h5 style="color: #aaaaaa;">注意：以下补丁文件适用于产品<font style="color: #ff0000;">一秒游</font>以及<font style="color: #ff0000;">168游戏加速</font>，请谨慎使用！</h5>
+                                           
+                                           <table class="table table-striped table-hover" id="patcher-dl-table">
+                                                     
+                                                     <tr>
+                                                        <th><span class="glyphicon glyphicon-th-list" ></span>&nbsp;文件名称／File Name</th>
+                                                        <th><span class="glyphicon glyphicon-time" ></span>&nbsp;更新日期／Update Time</th>
+                                                        <th><span class="glyphicon glyphicon-save" ></span>&nbsp;下载链接／Download Link</th>
+                                                     </tr>
+
+                                                     <tr>
+                                                        <td><span class="glyphicon glyphicon-save" ></span>&nbsp;补丁文件：降低延迟</td>
+                                                        <td>2017/08/05</td>
+                                                        <td><a href="https://pan.baidu.com/s/1pJ7ikvL" target="_blank">百度网盘下载</a></td>
+                                                     </tr>
+
+                                                     <tr>
+                                                        <td><span class="glyphicon glyphicon-save" ></span>&nbsp;补丁文件：解决错误789</td>
+                                                        <td>2017/08/05</td>
+                                                        <td><a href="https://pan.baidu.com/s/1sjDjKlR" target="_blank">百度网盘下载</a></td>
+                                                     </tr>
+
+                                                     <tr>
+                                                        <td><span class="glyphicon glyphicon-save" ></span>&nbsp;补丁文件：解决网吧使用限制</td>
+                                                        <td>2017/08/05</td>
+                                                        <td><a href="https://pan.baidu.com/s/1o6FXI8E" target="_blank">百度网盘下载</a></td>
+                                                     </tr>
+
+                                                     <tr>
+                                                        <td><span class="glyphicon glyphicon-save" ></span>&nbsp;补丁文件：优化系统服务及各种错误</td>
+                                                        <td>2017/08/05</td>
+                                                        <td><a href="https://pan.baidu.com/s/1nt5k0Lb" target="_blank">百度网盘下载</a></td>
+                                                     </tr>
+
+                                                     <tr>
+                                                        <td><span class="glyphicon glyphicon-save" ></span>&nbsp;补丁文件：解决L2TP模式线路无法连接</td>
+                                                        <td>2017/08/05</td>
+                                                        <td><a href="https://pan.baidu.com/s/1mhU7DA4" target="_blank">百度网盘下载</a></td>
+                                                     </tr>
+                                                     <tr>
+                                                        <td><span class="glyphicon glyphicon-save" ></span>&nbsp;补丁文件：Microsoft .NET Framework 4.0</td>
+                                                        <td>2017/08/05</td>
+                                                        <td><a href="http://dl1sw.baidu.com/soft/9b/15910/Microsoft.NET.exe" target="_blank">百度软件中心下载</a></td>
+                                                     </tr>
+                                            </table>
+
+                                           
+                                           </div>
+	                                        
+
+	                            </div>
+                                </div>
+    </div>   
+		
+
+
+<div id="footer-area" class="col-md-12" align="center">
+			   <hr />
+			 <p><h5 style="color:#aaaaaa;">Copyright &copy; Sylpha Project Co., Ltd.／Yimiao Network. All Rights Reserved.</h5></p>
+</div>
+<script type="text/javascript">
+/*staff-service interactive*/
+
+function staffService()
+	{
+		alert("即将跳转到人工服务页面，点击继续。")
+		window.location.href="../service/staff-service.html"
+	}
+function menuOpen()
+    {
+        document.getElementById("168acc-test").style.display="none";
+        document.getElementById("168acc-clear-online").style.display="none";
+        document.getElementById("menu").style.display="";
+    }
+function ylbaccTrialRegister()
+{
+        document.getElementById("168acc-test").style.display="";
+        document.getElementById("168acc-clear-online").style.display="none";
+        document.getElementById("menu").style.display="none";
+        document.getElementById("168acc-test-iframe").src="http://101.200.198.244:6688/dailishang/chen966966/createTestUser.aspx?agent=chen966966&vpnname=168vpn";
+}
+function ylbaccClearOnline()
+{
+        document.getElementById("168acc-test").style.display="none";
+        document.getElementById("168acc-clear-online").style.display="";
+        document.getElementById("menu").style.display="none";
+}
+</script>
+
+</div>                
+</body>
+</html>
